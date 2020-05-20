@@ -1,0 +1,33 @@
+"en-GB"
+
+
+group DSAG "Elevator Vendor"
+
+"Dependency 1" "elevator_vendor_UZAG.c16"
+"Dependency 2" "hach.wav"
+"Dependency 3" "elt0.wav"
+"Dependency 4" "elevatordispenser_UZAG.catalogue"
+"Agent Animation Gallery" "elevator_vendor_UZAG"
+"Agent Description" "Got any creatures that love to eat some elevator? This agent is perfect for you!\n\nGraphics by Uzag\nCoded by Pilla"
+"Agent Animation File" "elevator_vendor_UZAG.c16"
+"Agent Animation Gallery" "elevator_vendor_UZAG"
+"Remove script" "enum 2 23 21824\n	kill targ\nnext\nscrx 2 23 21824 1\nscrx 2 23 21824 3\n\n\nsetv va00 1\nreps 9\n	enum 2 va00 21824\n		kill targ\n	next\n	scrx 2 va00 21824 12\n	scrx 2 va00 21824 9\n	addv va00 1\nrepe"
+
+"Script Count" 1
+"Script 1" @ "Elevator Vendor script.cos"
+
+"Agent Type" 0
+"Dependency Count" 4
+"Dependency Category 1" 2
+"Dependency Category 2" 1
+"Dependency Category 3" 1
+"Dependency Category 4" 7
+"Agent Sprite First Image" 5
+
+
+
+inline FILE "elevator_vendor_UZAG.c16" "elevator_vendor_UZAG.c16"
+inline FILE "elevatordispenser_UZAG.catalogue" "elevatordispenser_UZAG.catalogue"
+inline FILE "elt0.wav" "elt0.wav"
+inline FILE "hach.wav" "hach.wav"
+
